@@ -1,0 +1,36 @@
+pour les utilisateurs de windows => aller sur google => XAMPP download
+https://www.apachefriends.org/fr/download.html
+
+sidi => EasyPHP
+
+pour les utilisateurs de MacOS => aller sur google => MAMP download
+https://www.mamp.info/en/downloads/
+
+=> créer un dossier dans votre ordinateur à l'adresse suivante :
+C:\xampp\htdocs\php
+http://localhost/php
+
+vous téléchargez deux logiciels en 1 :
+MAMP 
+MAMP PRO (fonctions qui sont payantes)
+
+pour nos besoins => utiliser MAMP
+
+=> créer un dossier dans votre ordinateur à l'adresse suivante :
+/Applications/MAMP/htdocs/php
+http://localhost:8888/php
+
+
+Moussa :
+=> pour les utilisateurs de Linux => sudo apt-get install lamp
+
+sudo apt install apache2 php libapache2-mod-php mariadb-server php-mysql
+
+sudo apt install apache2 php libapache2-mod-php mysql-server php-mysql
+
+https://doc.ubuntu-fr.org/lamp
+
+=> créer un dossier dans votre ordinateur à l'adresse suivante :
+
+/var/www/html/php
+http://localhost/php

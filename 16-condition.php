@@ -53,7 +53,7 @@
     //          true  &&  false ;
     //              false 
     echo "<br>";
-    var_dump( $verif3 );
+    var_dump( $verif3 ); 
 
     $verif4 = 20 > 10 ||  20 < 3 ;
     //          true   || false ; si une condition est true alors il l'opérateur renvoie true
@@ -95,7 +95,6 @@
 
     === vérifier le type et la valeur 
 
-
 -->
 
 <?php
@@ -120,3 +119,76 @@
     //                          true 
     var_dump($verif);
 ?>
+
+
+<?php
+    $a = 2 ;
+    $b = 3 ;
+    $c = -5 ;
+
+    $verif1 =  $a < $b ;
+    var_dump($verif1) ; // true ou false ??
+  
+    echo "<hr>";
+
+    $verif2 = $a < $b && $b > $c ;
+    var_dump($verif2) ; // true ou false ??
+
+    echo "<hr>";
+
+    $verif3 = $a > $b || $b > $c ;
+    var_dump($verif3) ; // true ou false ??
+
+    // https://github.com/webdevproformation/php-d-mai2020
+
+    // Le code PHP pour être exécuté
+    // => 1 le fichier doit être dans le dossier htdocs
+    // => 2 serveur XAMPP doit être démarré
+    // => 3 dans ton navigateur http://localhost/nom-de-ton-fichier.php
+
+    // si une de ces 3 trois conditions ne sont pas respectées => tu ne peux pas exécuter du code php dans ton ordinateur 
+
+    // ecommerce => je te déconseille de vouloir le code toi même à la main
+    // tester ecommerce ???? => shopify 
+    // concurrent de shopify : prestashop / woocommerce / magento (formé pour pouvoir les utiliser)
+
+    // très envie de faire un ecommerce pour le jury => ???? 
+    // est ce que tu peux présenter un prestashop / shopify / magento pour le jury ????
+    // CMS ??? 
+?>
+
+<?php
+    $a = 2 ;
+    $b = 3 ;
+    $c = -5 ;
+
+    $verif1 =  $a < $b ;
+    //          2 < 5
+    //          true
+    var_dump($verif1) ; // true ou false ??
+  
+    echo "<hr>";
+
+    $verif2 = $a < $b && $b > $c ;
+    //          2 < 5 &&  3 > -5
+    //          true  &&  true // && retourne true si les deux conditions sont true simultanément
+    //              true 
+
+    var_dump($verif2) ; // true ou false ??
+
+    echo "<hr>";
+
+    $verif3 = $a > $b || $b > $c ;
+    //          2 > 3 || 3 > -5
+    //           false || true // || OU retourne true si une des conditions ou les deux conditions est true
+    //                 true
+
+    var_dump($verif3) ; // true ou false ??
+?>
+
+<!-- 
+    créer un nouveau fichier :
+    windows http://localhost/17-if.php => c:\xampp\htdocs\17-if.php
+    MacOS http://localhost:8888/17-if.php => /Application/MAMP/htdocs/17-if.php
+    Linux http://localhost/php/17-if.php => /var/www/html/php/17-if.php
+-->
