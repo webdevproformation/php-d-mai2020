@@ -129,4 +129,15 @@
 
     echo "<hr>";
     var_dump($formation);
+
+    // 1 créer un dossier => base-php
+    // glissé tous les fichiers depuis de premier jour dedans 
+
 ?>
+
+<!-- 
+    // créer une nouvelle page php 
+    //windows http://localhost/base-php/27-rappels.php => c:\xampp\htdocs\base-php\27-rappels.php
+    //MacOS http://localhost:8888/base-php/26-tableau.php => /Application/MAMP/htdocs/base-php/26-tableau.php
+    //Linux http://localhost/php/base-php/26-tableau.php  => /var/www/html/php/26-tableau.php
+-->
