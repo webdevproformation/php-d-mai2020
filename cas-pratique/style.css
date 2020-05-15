@@ -1,0 +1,44 @@
+/*
+    centrer mon design dans la page
+*/
+
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.portfolio .zone1{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio .zone1 img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    /*couleur en informatique : mélange entre Rouge Green Blue */
+}
+
+.portfolio .zone2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio .zone2 article{
+    width:20%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    margin-bottom: 20px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-right: 10px;
+}
