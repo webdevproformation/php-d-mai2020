@@ -25,4 +25,30 @@ function genererZone2( $nbArticle ){
 // convention lib.php => ????? librairie => fichier qui stocke toutes les fonctions que nous allons utiliser dans notre site 
 // bibliotheque.php => ranger des livres
 
+function genererPresentation( $titre ,  $nbParagraphe ){
+    echo "<img src=\"https://source.unsplash.com/random/800x800\" alt=\"\">";
+    echo "<div>";
+    echo "<h1>$titre</h1>";
+    for($i = 0 ; $i < $nbParagraphe ; $i++){
+        echo "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus quae inventore iure aliquid totam?</p>";
+    }
+    echo "</div>";
+}
+
+$cordonnees = [
+    "tél : 0101010100101",
+    "email : contact@yahoo.fr" ,
+    "adresse : 75 rue du paradis 75000 Paris"
+];
+
+function genererContact($cordonnees){
+
+    echo "<h2>Nous contacter</h2>";
+    echo "<ul>";
+    foreach($cordonnees as $item){
+        echo "<li>$item</li>" ;
+    }
+    echo "</ul>";
+}
+
 ?>

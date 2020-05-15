@@ -42,3 +42,42 @@
 .menu li{
     margin-right: 10px;
 }
+
+footer{
+    text-align: center;
+    border-top: 1px solid grey;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.accueil .presentation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accueil .presentation img{
+    width:47%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    /*couleur en informatique : mélange entre Rouge Green Blue */
+}
+
+.accueil .presentation div{
+    width:47%;
+}
+
+.accueil .contacter{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top:1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accueil .contacter div{
+    width:47%;
+}
+
+.accueil .contacter div iframe{
+    width:100% !important;
+}

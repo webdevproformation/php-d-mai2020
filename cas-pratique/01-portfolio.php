@@ -15,20 +15,15 @@
 </head>
 <body>
     <div class="container portfolio">
-
         <?php require "menu.php" ?>
-
         <!-- deuxième manière d'utiliser require -->
-       
         <section class="zone1">
             <?php genererZone1(3) ?>
         </section>
         <section class="zone2">
             <?php genererZone2(20) ?>
         </section>
-        
         <?php require  "footer.php" ?>
-       
     </div>
 </body>
 </html>
