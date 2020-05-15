@@ -65,3 +65,40 @@
     </div>
 </body>
 </html>
+<!-- google => phpBB / ?? tchat ????
+    créer une nouvelle page presentation.php 
+    div principale ayant les class container presentation
+        menu
+
+        section class cv
+            h2 > Compétences
+            p   > voici la liste de mes compétences
+            liste
+                HTML
+                CSS
+                Javascript
+                PHP
+                Wordpress 
+
+            h2 > expérience
+            p   > liste de mes expériences professionnelles 
+            5 articles
+                h3 titre
+                img > logo
+                ul
+                    2 items 
+
+        section class formulaire
+
+            formulaire de contact 
+                prenom
+                tel
+                email
+                textarea
+                bouton 
+        footer
+-->
+<!-- 
+Android => JAVA / Kotlin 
+iOS => Swift C# 
+-->

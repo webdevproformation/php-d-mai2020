@@ -51,4 +51,30 @@ function genererContact($cordonnees){
     echo "</ul>";
 }
 
+
+function genererExperience($nb){
+    for($i = 0 ; $i < $nb ; $i++){
+        echo "<article>
+            <h3>titre</h3>
+            <img src=\"https://via.placeholder.com/40\" alt=\"\">
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Repudiandae, commodi.</li>
+            </ul>
+        </article>";
+    }
+}
+
+$competences = ["HTML","CSS", "Javascript" , "PHP" , "Wordpress"];
+
+
+function genererCompetence($competences){
+    echo "<h2>Compétences</h2>
+    <p>voici la liste de mes compétences</p>";
+    echo "<ul>";
+    foreach($competences as $item){
+        echo "<li>$item</li>" ;
+    }
+    echo "</ul>";
+}
 ?>
